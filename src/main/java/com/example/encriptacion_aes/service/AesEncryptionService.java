@@ -10,6 +10,7 @@ public class AesEncryptionService {
 private final SecretKey secretKey;
 
 public AesEncryptionService() throws Exception {
+	
 this.secretKey = KeyGenerator.getInstance("AES").generateKey();
 }
 
